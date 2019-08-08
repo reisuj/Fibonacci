@@ -6,7 +6,19 @@
 </head>
 <body>
   <script>
-    
+    var output = 0;
+    var firstNum = 0;
+    var secondNum = 1;
+
+    for (i=0;i<=100;i++)
+    {
+
+      console.log(output)
+      output = firstNum + secondNum;
+      firstNum = secondNum;
+      secondNum = output;
+
+    }
   </script>
 </body>
 </html>
